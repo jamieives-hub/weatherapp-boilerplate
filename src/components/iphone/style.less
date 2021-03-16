@@ -3,13 +3,20 @@
 .container { 
 	display: flex;
 	flex-direction: column;
-	background-image: url('../../assets/backgrounds/clear-iphone.jpg');
-	color: #fff;
+	background-color:black;
+	color:gray;
 	width: 414px;
 	height: 736px;
 	text-align: center;
 	padding-top: 80px;
+	padding-left:20px;
 	margin: 0 auto;
+}
+.icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
 }
 .header {
 	display: flex;
@@ -20,6 +27,11 @@
 	flex: 4;
 }
 .city {
+	flex: 1;
+	font-size: 1.7em;
+	font-weight: 400;	
+}
+.timezone{
 	flex: 1;
 	font-size: 1.7em;
 	font-weight: 400;	
@@ -43,4 +55,31 @@
 	display: inline-block;
 	padding-top: 10px;
 	vertical-align: top;
+}
+.percent:after {
+	content: "%";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+.search-box
+{
+	margin-bottom:10px;
+	width:100%;
+	margin: auto;
+}
+.search-box .search-bar
+{
+	display: block;
+	width: 100%;
+	padding:15px;
+	background-color: red;
+	box-shadow: 5px white;
+}
+.date
+{
+	color:red;
 }
